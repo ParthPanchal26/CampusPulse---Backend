@@ -2,10 +2,10 @@ const express = require('express');
 const { body, validationResult } = require('express-validator');
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
-const User = require('../models/User');
-const OTP = require('../models/OTP.JS');
-const auth = require('../middleware/auth');
-const { sendOTPEmail } = require('../utils/email');
+const User = require('../models/User.js');
+const OTP = require('../models/OTP.js');
+const auth = require('../middleware/auth.js');
+const { sendOTPEmail } = require('../utils/email.js');
 
 const router = express.Router();
 

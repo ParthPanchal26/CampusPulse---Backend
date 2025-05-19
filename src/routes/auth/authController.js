@@ -1,9 +1,9 @@
 const { validationResult } = require('express-validator');
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
-const User = require('../../models/User');
-const OTP = require('../../models/OTP.JS');
-const { sendOTPEmail } = require('../../utils/email');
+const User = require('../../models/User.js');
+const OTP = require('../../models/OTP.js');
+const { sendOTPEmail } = require('../../utils/email.js');
 
 exports.signup = async (req, res) => {
   try {

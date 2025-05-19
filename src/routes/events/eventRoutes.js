@@ -1,9 +1,9 @@
 const express = require('express');
 const { body } = require('express-validator');
-const eventAuth = require('../../middleware/eventAuth');
-const adminAuth = require('../../middleware/adminAuth');
-const auth = require('../../middleware/auth');
-const profileCheck = require('../../middleware/profileCheck');
+const eventAuth = require('../../middleware/eventAuth.js');
+const adminAuth = require('../../middleware/adminAuth.js');
+const auth = require('../../middleware/auth.js');
+const profileCheck = require('../../middleware/profileCheck.js');
 const { 
   createEvent, 
   updateEvent, 

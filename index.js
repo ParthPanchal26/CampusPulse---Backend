@@ -2,9 +2,9 @@ require('dotenv').config();
 const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
-const authRoutes = require('./src/routes/auth/authRoutes');
-const eventRoutes = require('./src/routes/events/eventRoutes');
-const profileRoutes = require('./src/routes/profile/profileRoutes');
+const authRoutes = require('./src/routes/auth/authRoutes.js');
+const eventRoutes = require('./src/routes/events/eventRoutes.js');
+const profileRoutes = require('./src/routes/profile/profileRoutes.js');
 
 const app = express();
 

@@ -1,6 +1,6 @@
 const { validationResult } = require('express-validator');
-const User = require('../../models/User');
-const Event = require('../../models/Event');
+const User = require('../../models/User.js');
+const Event = require('../../models/Event.js');
 
 // Create or update student profile
 exports.createProfile = async (req, res) => {

@@ -1,6 +1,6 @@
 const { validationResult } = require('express-validator');
-const Event = require('../../models/Event');
-const User = require('../../models/User'); // Import the User model
+const Event = require('../../models/Event.js');
+const User = require('../../models/User.js'); // Import the User model
 
 exports.createEvent = async (req, res) => {
   try {

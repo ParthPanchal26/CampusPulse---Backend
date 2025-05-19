@@ -1,4 +1,4 @@
-const User = require('../models/User');
+const User = require('../models/User.js');
 
 /**
  * Middleware to check if a user has completed their profile
